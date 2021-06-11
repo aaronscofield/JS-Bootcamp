@@ -1,17 +1,17 @@
 <!DOCTYPE html>
     <html lang="en">
         <head>
+            <title>Plotting functions in JavaScript using function plot library.</title>
             <meta_charset = "utf-8"/>
             <link rel="stylesheet" href="/css/style.css">
             <script type="text/javascript" src="/js/script.js"></script>
-            <title>Aaron's HTML Page</title>
+            <script src="https://d3js.org/d3.v3.min.js"></script>
+            <script src="https://mauriciopoppe.github.io/function-plot/js/function-plot.js"></script>
         </head>
 
-        <body>
-            <h1 id ="heading1">Home pageh</h1>
-            <button onclick="function1()">Click here?</button>
-            <h2 id ="pagetitle">Whats up?</h2>
-            <p>Nothin much!</p>
-            <button onclick="myFunction()">Click me for a surprise!</button>
+        <body onload="plot();">
+            <section id="plot">
+                <div id="myFunction"></div>
+            </section>
         </body>
     </html>
