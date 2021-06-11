@@ -1,3 +1,27 @@
-h1 {
+h2 {
     color: blueviolet;
+}
+
+section {
+    border:4px solid grey;
+    border-radius:15px;
+    box-shadow:5px 5px 5px grey;
+    float: left;
+    height: 360px;
+    padding: 40px;
+    padding-right: 20px;
+    margin: 10px
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+#plotSettings {
+    width:210px;
+}
+
+#plot{
+
+    width:550px;
 }
